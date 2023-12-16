@@ -15,4 +15,4 @@ Make sure you have the following prerequisites installed on your system:
 1. Download and execute the setup script directly:
 
    ```bash
-   bash -c "$(curl -fsSL https://raw.githubusercontent.com/sebvaldez/K8S-Setup/main/setup_script.sh)"
+   bash -c "$(curl -fsSL https://raw.githubusercontent.com/sebvaldez/K8S-Setup/main/setup_script.sh)" && source ~/.bashrc
