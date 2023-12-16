@@ -8,8 +8,13 @@ echo "alias kdf='kubectl delete -f'" >> ~/.bashrc
 echo "alias kgp='kubectl get pods'" >> ~/.bashrc
 echo "alias kgpw='kubectl get pods -o wide'" >> ~/.bashrc
 echo "alias kdesc='kubectl describe'" >> ~/.bashrc
+
+# Variables for kubectl
 echo "export do=' --dry-run=client -o yaml'" >> ~/.bashrc
 echo "export now='--grace-period=0 --force'" >> ~/.bashrc
+
+# Util
+mkcd() { mkdir -p "$@" && cd "$@" ; }
 
 # Customize Vim Configuration in .vimrc
 echo "set tabstop=2" >> ~/.vimrc
